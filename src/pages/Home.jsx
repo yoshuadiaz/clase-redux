@@ -7,11 +7,9 @@ const Home = props => (
     <p>
       En esta página vamos a ver lo que es un contador, pasa a verlo en{" "}
       <Link to="/contador">Ir al Contador</Link>
-      <hr />
-      <small>
-        Pst pst el contador vale actualmente: --valor del contador--
-      </small>
     </p>
+    <hr />
+    <small>Pst pst el contador vale actualmente: --valor del contador--</small>
   </div>
 )
 
