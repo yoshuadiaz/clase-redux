@@ -4,7 +4,7 @@ import {
 import Counter from '../pages/Counter.page'
 
 const mapStateToProps = (state) => ({
-  counter: state.counter
+  counter: state.Counter.value
 })
 
 const mapDispatchToProps = (dispatch) => ({

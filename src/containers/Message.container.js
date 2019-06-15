@@ -4,7 +4,7 @@ import {
 import Message from '../pages/Message.page'
 
 const mapStateToProps = state => ({
-  mensaje: state.message
+  mensaje: state.Message.value
 })
 
 const mapDispatchToProps = dispatch => ({
