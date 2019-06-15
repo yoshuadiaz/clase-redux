@@ -1,10 +1,14 @@
+import {
+  actionTypes
+} from './Message.actions'
+
 const initialState = {
   value: "Hello world"
 }
 
 function Message(state = initialState, action) {
   switch (action.type) {
-    case 'update message':
+    case actionTypes.UPDATE_MESSAGE:
       return {
         ...state, value: action.payload
       }
