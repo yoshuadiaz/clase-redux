@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Home from "./containers/Home.Container"
-import Counter from "./pages/Counter.page"
+import Counter from "./containers/Counter.container"
 import { createStore } from "redux"
 import { Provider } from "react-redux"
 

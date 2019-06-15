@@ -4,8 +4,9 @@ const Counter = props => (
   <div>
     <h1>El contador vale: {props.counter}</h1>
     <hr />
-    <button>Sumar 1</button>
-    <button>Restar 1</button>
+    <button onClick={props.sumarUno}>Sumar 1</button>
+    <button onClick={props.restarUno}>Restar 1</button>
+    <button onClick={props.copla}>Echate otra maistro!</button>
   </div>
 )
 
