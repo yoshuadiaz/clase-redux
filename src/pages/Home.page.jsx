@@ -9,7 +9,11 @@ const Home = props => (
       <Link to="/contador">Ir al Contador</Link>
     </p>
     <hr />
-    <small>Pst pst el contador vale actualmente: --valor del contador--</small>
+    <small>Pst pst el contador vale actualmente: {props.counter}</small>
+
+    <button onClick={props.sumarUno}>Sumar 1</button>
+    <button onClick={props.restarUno}>Restar 1</button>
+    <button onClick={props.carmenSalinas}>Carmelizar</button>
   </div>
 )
 
